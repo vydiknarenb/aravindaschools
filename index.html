@@ -134,7 +134,7 @@
     <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner ">
             <div class="carousel-item active" data-interval="1000">
-                <img src="img/home-banner.jpg" class="d-block w-100" alt="...">
+                <img src="img/gal11.jpg" class="d-block w-100 res-bimg" alt="...">
                 <div class="black-overlay">
                     <div class="text-ot">
                         <h1 style="color:#fff">Welcome to Aravinda Schools</h1>
@@ -147,7 +147,7 @@
 
             </div>
             <div class="carousel-item" data-interval="1000">
-                <img src="img/bg1.jpg" class="d-block w-100" alt="...">
+                <img src="img/gal1.jpg" class="d-block w-100" alt="...">
                 <div class="black-overlay">
                     <div class="text-ot">
                         <h1 style="color:#fff">Let your child excel in early education</h1>
@@ -157,7 +157,7 @@
                 </div>
             </div>
             <div class="carousel-item" data-interval="1000">
-                <img src="img/bg2.jpg" class="d-block w-100" alt="...">
+                <img src="img/gal8.jpg" class="d-block w-100" alt="...">
                 <div class="black-overlay">
                     <div class="text-ot">
                         <h1 style="color:#fff">Wonderful After School Programs</h1>
@@ -177,7 +177,85 @@
             <span class="sr-only">Next</span>
         </a>
     </div>
+
     <!--    end carousel-->
+    <!-- thumnail -->
+    <section class="trainer_area section_gap_top">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-5">
+
+                    <div class="main_title">
+                        <h2 class="mb-3">Aravinda High School</h2>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-md-4 ">
+                    <div class="card">
+                        <div class="card-image">
+                            <div class="embed-responsive embed-responsive-16by9">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/1ByjGbM7jmA" frameborder="0" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                        <!--
+                    <div class="card-content">
+                        <span class="card-title">Will my credits transfer?</span>
+                    </div>
+-->
+                    </div>
+                </div>
+                <div class="col-md-4 ">
+                    <div class="card">
+                        <div class="card-image">
+                            <div class="embed-responsive embed-responsive-16by9">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/RhWHSjEvieM" frameborder="0" allowfullscreen></iframe>
+                            </div>
+
+                        </div>
+                        <!--
+                    <div class="card-content">
+                        <span class="card-title">Do I have to live on campus?</span>
+                    </div>  
+-->
+                    </div>
+                </div>
+
+                <div class="col-md-4 ">
+                    <div class="card">
+                        <div class="card-image">
+                            <div class="embed-responsive embed-responsive-16by9">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/Nv745Yg1A3c" frameborder="0" allowfullscreen></iframe>
+                            </div>
+
+                        </div>
+
+                        <!--
+                    <div class="card-content">
+                        <span class="card-title">How can I pay for college?</span>
+                    </div>
+-->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+    <!--Events and updates-->
+
     <div class="events_area">
         <div class="container">
             <div class="row justify-content-center">
@@ -501,7 +579,6 @@
                     <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                     Copyright &copy;<script>
                         document.write(new Date().getFullYear());
-
                     </script> Aravind Schools
                     <!--<i class="ti-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>-->
                     <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
@@ -531,6 +608,16 @@
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjCGmQ0Uq4exrzdcL6rvxywDDOvfAu6eE"></script>
     <script src="js/gmaps.min.js"></script>
     <script src="js/theme.js"></script>
-</body>
+    <script>
+        $(function() {
 
-</html>
+            $('#show').on('click', function() {
+                $('.card-reveal').slideToggle('slow');
+            });
+
+            $('.card-reveal .close').on('click', function() {
+                $('.card-reveal').slideToggle('slow');
+            });
+        });
+    </script>
+</body></html>
